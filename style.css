@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    color: white;
+    height: 70px;
+    background-color: #0f1111;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     
+}
+
+.nav-logo{
+   height: 100px;
+   width: 100px;
+   
+}
+.logo{
+    margin-top: 20px;
+    background-image: url(./download.png);
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+
+}
+
+.border{
+    border: 2px solid transparent;
+    padding: 2px;
+}
+.border:hover{
+    border: 3px solid white;
+}
+
+/* box 02 */
+.address-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.address-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box 03 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: palevioletred;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 60px;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    text-transform: capitalize;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 217, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+    border: 3px solid orange;
+}
+
+/* box 04 */
+span{
+    padding: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.nav-sec{
+    padding: 5px;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+
+/* box 05 */
+.nav-card i{
+    font-size: 30px;
+}
+
+.nav-card{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 06 */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.padding{
+    padding: 6px;
+}
+
+.panel-ops p{
+    padding: 8px;
+    display: inline;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.10rem;
+    font-weight: 300;
+}
+
+.panel-deals{
+    padding: 7px;
+    font-size: 0.99rem;
+    font-weight: 500;
+}
+
+/* Hero section */
+ 
+.hero-section{
+    height: 500px;
+    background-image: url(./61Yx5-N155Lbackground\ image._SX3000_.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.hero-msg a{
+     color: #007185;
+}
+
+
+/* shop-section */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Gives perfectly equal horizontal and vertical spacing */
+    padding: 20px; /* Keeps boxes away from the edges of the container */
+    justify-content: space-evenly; /* Keeps remaining items centered on smaller screens */
+    background-color: #e2e7e6;
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: calc(25% - 20px); /* Exactly 4 cards per row, accounting for gap */
+    min-width: 250px; /* Prevents cards from breaking on smaller screens */
+    background-color: white;
+    padding: 20px 0px 15px;
+    box-sizing: border-box; /* Ensures padding doesn't break card width */
+}
+.box:hover{
+    background-color: #0f1111;
+    color: #007185;
+    text-shadow: 0px 0px 10px grey;
+}
+
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.box-img {
+    height: 280px; /* Adjusted so image fits inside the 400px fixed card height */
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.align{
+    text-align: center;
+}
+
+.box-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.box:hover{
+    box-shadow: 0px 0px 10px blue;
+}
+
+/* footer */
+ footer{
+    margin-top: 15px;
+ }
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+h4:hover{
+    color: orange;
+}
+
+.foot-panel2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+}
+
+ul{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+ul a{
+    display: block;
+    color: white;
+    font-size: 16px;
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
